@@ -123,6 +123,7 @@
 	border-right: 1px solid #E6E9EB;
 }
 
+<<<<<<< 8a60ca74f992661494f59c903399e45cf7a7a2f6
 <<<<<<< ef96d037fe75f1555aa4001f440693616de0c792
 @media (max-width: 768px) {
 	.vehicle-info-item:first-child {
@@ -136,6 +137,8 @@
 	}
 }
 
+=======
+>>>>>>> Adding site
 =======
 >>>>>>> Adding site
 .vehicle-info-heading {
@@ -152,6 +155,14 @@
 .gray-background {
 	background-color: #f2f2f2;
 }
+<<<<<<< 8a60ca74f992661494f59c903399e45cf7a7a2f6
+=======
+@media (max-width: 768px) {
+	.vehicle-info:first-child {
+		border-bottom: 1px solid #E6E9EB;
+	}
+}
+>>>>>>> Adding site
 
 .find-section {
 	padding: 30px 0;
@@ -185,8 +196,11 @@
 
 .models {
 	padding: 60px 0 85px 0;
+<<<<<<< 8a60ca74f992661494f59c903399e45cf7a7a2f6
 <<<<<<< ef96d037fe75f1555aa4001f440693616de0c792
 	overflow: hidden;
+=======
+>>>>>>> Adding site
 =======
 >>>>>>> Adding site
 }
