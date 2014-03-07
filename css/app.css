@@ -127,6 +127,9 @@
 	.vehicle-info-item:first-child {
 		border-bottom: 1px solid #E6E9EB;
 	}
+	.vehicle-info-item:last-child {
+		border-right: none;
+	}
 }
 
 .vehicle-info-heading {
