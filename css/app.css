@@ -144,18 +144,25 @@
 	.vehicle-info-item:last-child {
 		border-right: none;
 	}
+<<<<<<< a478e3d1886143c89b10efef635ecc04f94bbffa
 <<<<<<< 6ee0534227fd7620ed8ec8921bb22b95e173e22f
 <<<<<<< 50bf81f2a4be0ec77fee370c26e9dcd1ecd7d678
+=======
+<<<<<<< 5474d5ac89e9cdc55593fed84ed397abbb422d9c
+>>>>>>> Fixed JS error?
 	.pseudo-car .carTempHolder {
 		top: 100px;
 	}
 =======
 >>>>>>> Fixed JS error?
+<<<<<<< a478e3d1886143c89b10efef635ecc04f94bbffa
 =======
 	.carTempHolder {
 		top: 102px;
 	}
 >>>>>>> ColorPicker: Fixed responsive color picker
+=======
+>>>>>>> Fixed JS error?
 }
 
 =======
