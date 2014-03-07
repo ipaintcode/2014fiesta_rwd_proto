@@ -123,6 +123,12 @@
 	border-right: 1px solid #E6E9EB;
 }
 
+@media (max-width: 768px) {
+	.vehicle-info-item:first-child {
+		border-bottom: 1px solid #E6E9EB;
+	}
+}
+
 .vehicle-info-heading {
 	font-size: 12px;
 	color: #999999;
@@ -174,7 +180,8 @@
 }
 
 .models {
-	padding: 60px 0 85px 0;
+	margin: 60px 0 85px 0;
+	overflow: hidden;
 }
 
 .colors,
