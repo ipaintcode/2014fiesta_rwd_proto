@@ -123,8 +123,12 @@
 	border-right: 1px solid #E6E9EB;
 }
 
+<<<<<<< 6cae8146ea827d6bf54b60a4d1b422e01e8f4628
 <<<<<<< 8a60ca74f992661494f59c903399e45cf7a7a2f6
 <<<<<<< ef96d037fe75f1555aa4001f440693616de0c792
+=======
+<<<<<<< 9cd114698dbc826c1d2dc5002442be32088d045e
+>>>>>>> Fiesta 2014 RWD Foundation Prototype
 @media (max-width: 768px) {
 	.vehicle-info-item:first-child {
 		border-bottom: 1px solid #E6E9EB;
@@ -147,9 +151,13 @@
 }
 
 =======
+<<<<<<< 6cae8146ea827d6bf54b60a4d1b422e01e8f4628
 >>>>>>> Adding site
 =======
 >>>>>>> Adding site
+=======
+>>>>>>> Fiesta 2014 RWD Foundation Prototype
+>>>>>>> Fiesta 2014 RWD Foundation Prototype
 .vehicle-info-heading {
 	font-size: 12px;
 	color: #999999;
@@ -164,17 +172,25 @@
 .gray-background {
 	background-color: #f2f2f2;
 }
+<<<<<<< 6cae8146ea827d6bf54b60a4d1b422e01e8f4628
 <<<<<<< 6ee0534227fd7620ed8ec8921bb22b95e173e22f
 <<<<<<< 8a60ca74f992661494f59c903399e45cf7a7a2f6
+=======
+<<<<<<< 9cd114698dbc826c1d2dc5002442be32088d045e
+>>>>>>> Fiesta 2014 RWD Foundation Prototype
 =======
 @media (max-width: 768px) {
 	.vehicle-info:first-child {
 		border-bottom: 1px solid #E6E9EB;
 	}
 }
+<<<<<<< 6cae8146ea827d6bf54b60a4d1b422e01e8f4628
 >>>>>>> Adding site
 =======
 >>>>>>> ColorPicker: Fixed responsive color picker
+=======
+>>>>>>> Fiesta 2014 RWD Foundation Prototype
+>>>>>>> Fiesta 2014 RWD Foundation Prototype
 
 .find-section {
 	padding: 30px 0;
@@ -208,6 +224,7 @@
 
 .models {
 	padding: 60px 0 85px 0;
+<<<<<<< 6cae8146ea827d6bf54b60a4d1b422e01e8f4628
 <<<<<<< 8a60ca74f992661494f59c903399e45cf7a7a2f6
 <<<<<<< ef96d037fe75f1555aa4001f440693616de0c792
 	overflow: hidden;
@@ -215,6 +232,12 @@
 >>>>>>> Adding site
 =======
 >>>>>>> Adding site
+=======
+<<<<<<< 9cd114698dbc826c1d2dc5002442be32088d045e
+	overflow: hidden;
+=======
+>>>>>>> Fiesta 2014 RWD Foundation Prototype
+>>>>>>> Fiesta 2014 RWD Foundation Prototype
 }
 
 .colors,
