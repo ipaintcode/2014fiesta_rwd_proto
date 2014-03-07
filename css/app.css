@@ -132,9 +132,12 @@
 	.vehicle-info-item:last-child {
 		border-right: none;
 	}
+<<<<<<< 50bf81f2a4be0ec77fee370c26e9dcd1ecd7d678
 	.pseudo-car .carTempHolder {
 		top: 102px;
 	}
+=======
+>>>>>>> Fixed JS error?
 }
 
 =======
