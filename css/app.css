@@ -123,12 +123,15 @@
 	border-right: 1px solid #E6E9EB;
 }
 
+<<<<<<< ef96d037fe75f1555aa4001f440693616de0c792
 @media (max-width: 768px) {
 	.vehicle-info-item:first-child {
 		border-bottom: 1px solid #E6E9EB;
 	}
 }
 
+=======
+>>>>>>> Adding site
 .vehicle-info-heading {
 	font-size: 12px;
 	color: #999999;
@@ -181,7 +184,10 @@
 
 .models {
 	padding: 60px 0 85px 0;
+<<<<<<< ef96d037fe75f1555aa4001f440693616de0c792
 	overflow: hidden;
+=======
+>>>>>>> Adding site
 }
 
 .colors,
