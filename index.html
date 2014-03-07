@@ -667,15 +667,18 @@
 			$('.view-gallery-btn').css('color', carColorInfo[index].hex);
 			$('.view-gallery-btn').css('borderColor', carColorInfo[index].hex);
 			$('.sex-change').css('color', carColorInfo[index].hex);
-			$('.carTempHolder').attr('src', imagePath+carColorInfo[index].png);
-			carPNGHolder.stop().animate({
-				opacity: "0"
-			}, 300, function() {
-				carPNGHolder.attr('src', imagePath+carColorInfo[index].png);
+			$('.carTempHolder').attr('src', imagePath+carColorInfo[index].png)
+			.load(function() {
 				carPNGHolder.stop().animate({
-					opacity: 1
+					opacity: "0"
+				}, 300, function() {
+					carPNGHolder.attr('src', imagePath+carColorInfo[index].png);
+					carPNGHolder.stop().animate({
+						opacity: 1
+					});
 				});
 			});
+			
 
 			ele.addClass('color-circle-active');
 /* 			carPNGHolder.attr('src', carColorInfo[$(this).index()].png); */
