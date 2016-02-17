@@ -1,708 +1,438 @@
 <!DOCTYPE html>
-<!--[if IE 8]> 				 <html class="no-js lt-ie9" lang="en" > <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<html class="no-js" lang="en">
 
 <head>
-	<meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>2014 Ford Fiesta</title>
-
-
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/foundation.css">
-  <link rel="stylesheet" href="css/app.css">
-
-  <script src="js/vendor/custom.modernizr.js"></script>
-
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>2014 Ford Fiesta</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css">
+    <script src="js/vendor/custom.modernizr.js"></script>
 </head>
+
 <body>
-
-	<div class="container-full-width clearfix">
-
+    <div class="container-full-width clearfix">
         <div class="flexslider">
             <ul class="slides swap-image">
                 <li>
-        	        <img src="img/billboards/fiesta-billboard_s1.jpg" data-small="img/billboards/fiesta-billboard-480px_s1.jpg" />
-        		</li>
-        		<li>
-        	        <img src="img/billboards/fiesta-billboard_s2.jpg" data-small="img/billboards/fiesta-billboard-480px_s2.jpg" />
-        		</li>
-        		<li>
-        	        <img src="img/billboards/fiesta-billboard_s3.jpg" data-small="img/billboards/fiesta-billboard-480px_s3.jpg" />
-        		</li>
-        		<li>
-        	        <img src="img/billboards/fiesta-billboard_s4.jpg" data-small="img/billboards/fiesta-billboard-480px_s4.jpg" />
-        		</li>
+                    <img src="img/billboards/fiesta-billboard_s1.jpg" data-small="img/billboards/fiesta-billboard-480px_s1.jpg" />
+                </li>
+                <li>
+                    <img src="img/billboards/fiesta-billboard_s2.jpg" data-small="img/billboards/fiesta-billboard-480px_s2.jpg" />
+                </li>
+                <li>
+                    <img src="img/billboards/fiesta-billboard_s3.jpg" data-small="img/billboards/fiesta-billboard-480px_s3.jpg" />
+                </li>
+                <li>
+                    <img src="img/billboards/fiesta-billboard_s4.jpg" data-small="img/billboards/fiesta-billboard-480px_s4.jpg" />
+                </li>
             </ul>
         </div>
+    </div>
+    <!-- container-full-width -->
+    <div class="full-width border-top-bottom vehicle-info-top">
+        <div class="row">
+            <div class="large-6 columns vehicle-info-item">
+                <div class="vehicle-info-heading">MSRP<sup>1</sup>Range</div>
+                <div class="vehicle-info-value"><strong>$14,000 - $38,565</strong></div>
+            </div>
+            <div class="large-3 small-6 columns vehicle-info-item">
+                <div class="vehicle-info-heading">EPAc-EST. MPG CIY/HWY<sup>2</sup></div>
+                <div class="vehicle-info-value"><strong>30/41</strong></div>
+            </div>
+            <div class="large-3 small-6 columns vehicle-info-item">
+                <div class="vehicle-info-heading">Seating for</div>
+                <div class="vehicle-info-value"><strong>5</strong></div>
+            </div>
+        </div>
+    </div>
+    <div class="row" style="margin-top: 70px;">
+        <div class="large-8 large-centered columns type-centered">
+            <h2>New look. Same fun spirit.</h2>
+            <p>From the grille to the headlamps to the distinctive lines on the hood, the Fiesta has a new chiseled look– a look that seems to be taking a stand on standing still. Add to that its spirit of more. More fun. More technology. More colors. And even, more models. You get the 2014 Fiesta, a vehicle that was made to move and made for more of what you do.</p>
+        </div>
+    </div>
+    <img src="img/recaro-seats.jpg" alt="" width="100%">
+    <div class="row" style="margin: 30px auto;">
+        <div class="large-12 columns">
+            <div class="large-4 columns">
+                <h2>Lay it on thick.</h2>
+                <p>Underneath the sleek shape of Fiesta lies a high-strength protective layer of steel. This strong safety cage was designed to divert crash forces away from cargo. Then layer in the seven standard airbags to cast a net of safety around all that sits inside.</p>
+            </div>
+            <div class="large-8 columns">
+                <img src="img/airbags.jpg" alt="">
+            </div>
+        </div>
+    </div>
 
-	</div><!-- container-full-width -->
+    <div class="full-width color-changer">
+        <div class="row">
+            <div class="large-8 large-centered columns type-centered">
+                <h2 class="sex-change">Select a hue.</h2>
+            </div>
+        </div>
+        <div class="row" id="swatches">
+            <div class="">
+                <ul class="color-swatches">
+                    <li class="color-circle circle-bluecandy color-circle-active"><a href="#">Blue Candy</a></li>
+                    <li class="color-circle circle-black"><a href="#">Black</a></li>
+                    <li class="color-circle circle-red"><a href="#">Race Red</a></li>
+                    <li class="color-circle circle-performanceblue"><a href="#">Performance Blue</a></li>
+                    <li class="color-circle circle-green"><a href="#">Green Envy</a></li>
+                    <li class="color-circle circle-ruby"><a href="#">Ruby Red</a></li>
+                    <li class="color-circle circle-ingotsilver"><a href="#">Ingot Silver</a></li>
+                    <li class="color-circle circle-white"><a href="#">Oxford White</a></li>
+                    <li class="color-circle circle-sterlinggray"><a href="#">Storm Gray</a></li>
+                    <li class="color-circle circle-moltenorange"><a href="#">Molten Orange</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row topBG" id="color-changer">
+            <div class="large-12 pseudo-car">
+                <img src="img/color/14_FIES_BlueCandy.png" alt="Fiesta Car" class="carHolder">
+                <img src="img/color/14_FIES_BlueCandy.png" alt="Fiesta Car" class="carTempHolder">
+            </div>
+        </div>
+        <div class="row fix-button">
+            <div class="row type-centered">
+                <a href="#" class="rounded-btn view-gallery-btn" style="margin-bottom: 50px; margin-top: 20px;">View Gallery</a>
+            </div>
+        </div>
+        <div class="gradient-bg"></div>
+    </div>
+    <div class="full-width full-width-image height-500">
+    </div>
+    <div class="row made-easier">
+        <div class="large-12 columns">
+            <div class="large-6 large-centered columns type-centered">
+                <h2>Driving made easier.</h2>
+                <p>Packed with user-friendly technology to help you make the most of your drive with less of an effort.</p>
+            </div>
+        </div>
 
-	<div class="full-width border-top-bottom vehicle-info-top">
+        <div class="large-12 columns change-heading-color">
+            <div class="large-3 columns">
+                <a href="#">
+                    <img src="img/feature-1.jpg" alt="">
+                    <h4>No more fumbling keys</h4>
+                    <p>Intelligent Access with Push-Button Start lets you get in and get going without digging for your keys. As long as the key’s on you, you can unlock the door and start the car.</p>
+                </a>
+            </div>
+            <div class="large-3 columns">
+                <a href="#">
+                    <img src="img/feature-2.jpg" alt="">
+                    <h4>View what’s behind you.</h4>
+                    <p>With the available Rearview Camera, just throw it in reverse and an image of what’s behind you will be transmitted to the 6.5-inch display screen.</p>
+                </a>
+            </div>
+            <div class="large-3 columns">
+                <a href="#">
+                    <img src="img/feature-3.jpg" alt="">
+                    <h4>Driving with limits</h4>
+                    <p>MyKey® encourages responsible driving by others when they’re behind the wheel of your vehicle. It allows you to limit vehicle top speeds, decrease audio volume and more.</p>
+                </a>
+            </div>
+            <div class="large-3 columns">
+                <a href="#">
+                    <img src="img/feature-4.jpg" alt="">
+                    <h4>The hand-free way</h4>
+                    <p>Available SYNC® with MyFord Touch® allows you to use simple voice commands to control your phone, your music and more.</p>
+                </a>
+            </div>
+        </div>
+    </div>
 
-		<div class="row">
-			<div class="large-6 columns vehicle-info-item">
-				<div class="vehicle-info-heading">MSRP<sup>1</sup>Range</div>
-				<div class="vehicle-info-value"><strong>$14,000 - $38,565</strong></div>
-			</div>
+    <div class="full-width sync-dash-module">
+        <div class="row">
+            <div class="large-9 columns large-centered type-centered">
+                <h3 style="color: white; margin-top: 80px;">The hand-free way of staying in touch and entertained</h3>
+            </div>
+            <div class="large-6 columns large-centered type-centered">
+                <p style="color: white;">Available SYNC® with MyFord Touch® allows you to use simple voice commands to control your phone, your music and more. <a href="#">Learn More</a></p>
+            </div>
+            <div class="large-12 columns large-centered type-centered">
+                <a href="#" class="sync-btn sync-btn-active">Navigation</a>
+                <a href="#" class="sync-btn">Entertainment</a>
+                <a href="#" class="sync-btn">Phone</a>
+            </div>
+        </div>
+    </div>
+    <div class="row serious-go change-heading-color">
+        <div class="large-12 columns">
+            <div class="large-8 large-centered columns type-centered">
+                <h3>Serious go.</h3>
+                <p>With an impressive EPA-estimated 41 highway mpg, the 2014 Fiesta will get you where you’re going and then some. After all, it wasn’t name best-in-class for highway fuel economy because of its striking good looks. But those aren’t too bad either.</p>
+            </div>
+        </div>
+        <div class="large-12 columns">
+            <div class="large-4 columns">
+                <a href="#">
+                    <img src="img/feature-5.jpg" alt="">
+                    <h4>Serious go.</h4>
+                    <p>2014 Fiesta ST is all about performance. The 1.6L Ti-VCT engine under the hood has 120 horses and 112lb.-ft of torque.</p>
+                </a>
+            </div>
+            <div class="large-4 columns">
+                <a href="#">
+                    <img src="img/feature-6.jpg" alt="">
+                    <h4>Pavment taunting performance</h4>
+                    <p>The Electronic power-assisted steering allows for agile movement and responsive handling.</p>
+                </a>
+            </div>
+            <div class="large-4 columns">
+                <a href="#">
+                    <img src="img/feature-7.jpg" alt="">
+                    <h4>Ground control</h4>
+                    <p>MWhile the suspension features help deliver a nimble, yet controlled ride. And those are just a few of the elements that make this vehicle so fun to drive.</p>
+                </a>
+            </div>
+        </div>
+    </div>
 
-			<div class="large-3 small-6 columns vehicle-info-item">
-				<div class="vehicle-info-heading">EPAc-EST. MPG CIY/HWY<sup>2</sup></div>
-				<div class="vehicle-info-value"><strong>30/41</strong></div>
-			</div>
+    <div class="row models">
+        <div class="large-12 columns">
+            <div class="large-12 large-centered columns type-centered">
+                <h3>The FIESTA is available in 7 fuel-efficient models.</h3>
+            </div>
+        </div>
+        <div class="large-12 columns vehicle-info">
+            <div class="large-3 columns">
+                <a href="#">
+                    <img src="img/models/s_hatch.jpg" alt="">
+                    <h5 class="border-bottom">S Sedan</h5>
+                    <p class="vehicle-msrp">$14,000 Starting MSRP</p>
+                    <p>30/42 EPA-Est. MPG City/Hwy</p>
+                </a>
+            </div>
+            <div class="large-3 columns">
+                <a href="#">
+                    <img src="img/models/se_sedan.jpg" alt="">
+                    <h5 class="border-bottom">S Sedan</h5>
+                    <p class="vehicle-msrp">$14,000 Starting MSRP</p>
+                    <p>30/42 EPA-Est. MPG City/Hwy</p>
+                </a>
+            </div>
+            <div class="large-3 columns">
+                <a href="#">
+                    <img src="img/models/titanium_sedan.jpg" alt="">
+                    <h5 class="border-bottom">S Sedan</h5>
+                    <p class="vehicle-msrp">$14,000 Starting MSRP</p>
+                    <p>30/42 EPA-Est. MPG City/Hwy</p>
+                </a>
+            </div>
+            <div class="large-3 columns">
+                <a href="#">
+                    <img src="img/models/s_sedan.jpg" alt="">
+                    <h5 class="border-bottom">S Sedan</h5>
+                    <p class="vehicle-msrp">$14,000 Starting MSRP</p>
+                    <p>30/42 EPA-Est. MPG City/Hwy</p>
+                </a>
+            </div>
+            <div class="large-3 columns">
+                <a href="#">
+                    <img src="img/models/st.jpg" alt="">
+                    <h5 class="border-bottom">S Sedan</h5>
+                    <p class="vehicle-msrp">$14,000 Starting MSRP</p>
+                    <p>30/42 EPA-Est. MPG City/Hwy</p>
+                </a>
+            </div>
+            <div class="large-3 columns">
+                <a href="#">
+                    <img src="img/models/se_hatch.jpg" alt="">
+                    <h5 class="border-bottom">S Sedan</h5>
+                    <p class="vehicle-msrp">$14,000 Starting MSRP</p>
+                    <p>30/42 EPA-Est. MPG City/Hwy</p>
+                </a>
+            </div>
+            <div class="large-3 columns">
+                <a href="#">
+                    <img src="img/models/titanium_hatch.jpg" alt="">
+                    <h5 class="border-bottom">S Sedan</h5>
+                    <p class="vehicle-msrp">$14,000 Starting MSRP</p>
+                    <p>30/42 EPA-Est. MPG City/Hwy</p>
+                </a>
+            </div>
+            <div class="large-3 columns">
+                <a href="#">
+                    <img src="img/models/s_hatch.jpg" alt="">
+                    <h5 class="border-bottom">ST Hatch</h5>
+                    <p class="vehicle-msrp">$21,000 Starting MSRP</p>
+                    <p>30/42 EPA-Est. MPG City/Hwy</p>
+                </a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="large-12 columns type-centered" style="padding: 0;">
+                <!-- 				<a href="#" class="compare-btn" style="margin-right: 0;">Compare Models</a> -->
+            </div>
+        </div>
+    </div>
+    <div class="full-width large-red-fiesta">
+        <div class="row"></div>
+        <div class="large-6 large-centered columns type-centered">
+            <h5 style="margin-bottom: 0; margin-top: 60px;">2014 <strong>FIESTA</strong></h5>
+            <h3 style="font-weight: bold; margin-top: 0;">Go see it for yourself.</h3>
+        </div>
+    </div>
+    </div>
+    <div class="full-width gray-background" style="padding: 30px 0;">
+        <div class="row">
+            <div class="large-9 large-centered columns">
+                <div class="number-43" style="font-size: 80px; float: left;">
+                    43
+                </div>
+                <div class="clearfix" style="font-size: 38px; margin-left: 120px; padding-top: 8px;">
+                    2014 Fiestas within 20 miles of <span style="color: #2C96CC;">48126</span>.
+                </div>
+                <div class="clearfix" style="color: #2C96CC; margin-left: 120px;">
+                    View Inventory <span style="color: #444444">or</span> Change your Current Location
+                </div>
+            </div>
+        </div>
+        <div class="row find-section">
+            <div class="large-4 columns" style="border-right: 1px solid #E6E6E6;">
+                <h4 class="find-heading">Build &amp; Price</h4>
+                <p class="find-copy">Configure a vehicle the way you want - from colors to options - and get a Net Price.</p>
+            </div>
+            <div class="large-4 columns" style="border-right: 1px solid #E6E6E6;">
+                <h4 class="find-heading">Get Updates</h4>
+                <p class="find-copy">Sign up for emails that keep you in the loop about new vehicles, technologies, offers and more.</p>
+            </div>
+            <div class="large-4 columns">
+                <h4 class="find-heading">Requesta a Local Quote</h4>
+                <p class="find-copy">Get a price from your local dealer on the vehicle you’re looking for.</p>
+            </div>
+        </div>
+    </div>
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/jquery.flexslider.js"></script>
+    <script src="js/vendor/enquire.js"></script>
 
-			<div class="large-3 small-6 columns vehicle-info-item">
-				<div class="vehicle-info-heading">Seating for</div>
-				<div class="vehicle-info-value"><strong>5</strong></div>
-			</div>
-		</div>
+    <script>
 
+    $(window).load(function() {
+        $('.flexslider').flexslider({
+            animation: "slide",
+            slideshow: false,
+            start: function(slider) {
+                $('body').removeClass('loading');
+            }
+        });
+    });
 
-	</div>
+    $(document).ready(function() {
 
-	<div class="row" style="margin-top: 70px;">
-		<div class="large-8 large-centered columns type-centered">
-			<h2>New look. Same fun spirit.</h2>
-			<p>From the grille to the headlamps to the distinctive lines on the hood, the Fiesta has a new chiseled look– a look that seems to be taking a stand on standing still. Add to that its spirit of more. More fun. More technology. More colors. And even, more models. You get the 2014 Fiesta, a vehicle that was made to move and made for more of what you do.</p>
-		</div>
-	</div>
+        var index = 0,
+            swatches = $('.color-circle'),
+            smallPath = "img/color/small/",
+            largePath = "img/color/",
+            imagePath = largePath,
+            carPNGHolder = $('.carHolder'),
+            carBGHolder = $('.color-changer'),
+            carColorInfo = [{
+                name: "Blue Candy",
+                hex: "#097691",
+                bg: "#b4dced",
+                png: "14_FIES_BlueCandy.png"
+            }, {
+                name: "Tuxedo Black",
+                hex: "#000000",
+                bg: "#909090",
+                png: "14_FIES_TuxedoBlack.png"
+            }, {
+                name: "Race Red",
+                hex: "#E10010",
+                bg: "#f6b4b9",
+                png: "14_FIES_RaceRed.png"
+            }, {
+                name: "Performance Blue",
+                hex: "#16276D",
+                bg: "#a0b4c9",
+                png: "14_FIES_PerformanceBlue.png"
+            }, {
+                name: "Green Envy",
+                hex: "#789c09",
+                bg: "#d7e2b7",
+                png: "14_FIES_GreenEnvy.png"
+            }, {
+                name: "Ruby Red",
+                hex: "#A51A24",
+                bg: "#caa7a9",
+                png: "14_FIES_RubyRed.png"
+            }, {
+                name: "Ingot Silver",
+                hex: "#818181",
+                bg: "#d0d0d0",
+                png: "14_FIES_IngotSilver.png"
+            }, {
+                name: "Oxford White",
+                hex: "#989898",
+                bg: "#EEEEEE",
+                png: "14_FIES_OxfordWhite.png"
+            }, {
+                name: "Storm Gray",
+                hex: "#686460",
+                bg: "#a1a0a1",
+                png: "14_FIES_StormGrey.png"
+            }, {
+                name: "Molten Orange",
+                hex: "#c63f09",
+                bg: "#eec7b7",
+                png: "14_FIES_MoltonOrange.png"
+            }];
 
-	<img src="img/recaro-seats.jpg" alt="" width="100%">
+        // $('.sync-btn').click(function(event) {
+        // 	event.preventDefault();
+        // 		$(window).scrollTop(4140);
+        // 	$("html, body").stop().animate({ scrollTop: "4140px" }, 5000);
+        // });
 
-	<div class="row" style="margin: 30px auto;">
-		<div class="large-12 columns">
-			<div class="large-4 columns">
-				<h2>Lay it on thick.</h2>
-			<p>Underneath the sleek shape of Fiesta lies a high-strength protective layer of steel. This strong safety cage was designed to divert crash forces away from cargo. Then layer in the seven standard airbags to cast a net of safety around all that sits inside.</p>
-			</div>
-			<div class="large-8 columns">
-				<img src="img/airbags.jpg" alt="">
-			</div>
-		</div>
-	</div>
-
-	<style>
-		.color-changer {
-			position: relative;
-			background-color: #b4dced;
-			-webkit-transition: all .5s ease-out;
-			overflow: hidden;
-		}
-		.color-circle.color-circle-active {
-			box-shadow: 0px 0px 0px 8px rgba(255, 255, 255, 1);
-		}
-		.color-circle {
-			display: inline-block;
-			width: 47px;
-			height: 47px;
-			text-indent: -9999px;
-			-webkit-transition: all .3s ease-out;
-			border-radius: 50%;
-			box-shadow: 0px 0px 0px 0px rgba(255, 255, 255, 0);
-			-webkit-transform: translate3d(0, 0, 0);
-			-moz-transform: translate3d(0, 0, 0);
-			-ms-transform: translate3d(0, 0, 0);
-			transform: translate3d(0, 0, 0);
-			margin-bottom: 15px;
-		}
-		.color-circle a {
-			display: block;
-			border-radius: 50%;
-			height: 100%;
-			-webkit-transition: all .3s ease-out;
-			-webkit-transform: translate3d(0, 0, 0);
-			-moz-transform: translate3d(0, 0, 0);
-			-ms-transform: translate3d(0, 0, 0);
-			transform: translate3d(0, 0, 0);
-		}
-		.color-circle a:hover {
-			box-shadow: 0px 0px 0px 4px rgba(255, 255, 255, .5);
-		}
-		.topBG {
-			position: relative;
-			z-index: 2;
-		}
-		.gradient-bg {
-			background: -moz-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%); /* FF3.6+ */
-			background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0)), color-stop(100%,rgba(255,255,255,1))); /* Chrome,Safari4+ */
-			background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%); /* Chrome10+,Safari5.1+ */
-			background: -o-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%); /* Opera 11.10+ */
-			background: -ms-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%); /* IE10+ */
-			background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%); /* W3C */
-			/* 				 */
-			width: 100%;
-			height: 500px;
-
-			position: absolute;
-
-			bottom: 0;
-			left: 0;
-
-			z-index: 1;
-		}
-		.pseudo-car {
-			position: relative;
-		}
-		.carTempHolder {
-			position: absolute;
-			top: 0;
-			left: 0;
-			z-index: -1;
-		}
-		.color-swatches {
-			position: relative;
-			z-index: 1000;
-			text-align: center;
-		}
-		@media (max-width: 768px) {
-			.color-swatches {
-				width: 351px;
-				margin: 0 auto;
-				margin-top: 20px;
-			}
-			.color-swatches li:first-child {
-				margin-right: 15px;
-			}
-			.color-swatches li:nth-child(5),
-			.color-swatches li:last-child {
-				margin-right: 0;
-			}
-			.color-swatches li {
-				margin-right: 15px;
-				margin-bottom: 17px;
-			}
-			#color-changer {
-				margin-top: -100px;
-			}
-		}
-		.rounded-btn {
-			text-decoration: none;
-			border: 1px solid #388EBD;
-			border-radius: 3px;
-			padding: 20px 100px;
-			font-size: 16px !important;
-			display: inline-block;
-		}
-		.fix-button {
-			position: relative;
-			z-index: 1000;
-		}
-		.sex-change {
-			margin-top: 40px;
-			margin-bottom: 30px;
-			color: #0087C1;
-		}
-		@media (max-width: 1200px) {
-			#color-changer {
-				padding: 0 20px;
-			}
-		}
-	</style>
-
-	<div class="full-width color-changer">
-		<div class="row">
-			<div class="large-8 large-centered columns type-centered">
-				<h2 class="sex-change">Select a hue.</h2>
-			</div>
-		</div>
-		<div class="row" id="swatches">
-			<div class="">
-				<ul class="color-swatches">
-					<li class="color-circle circle-bluecandy color-circle-active"><a href="#">Blue Candy</a></li>
-					<li class="color-circle circle-black"><a href="#">Black</a></li>
-					<li class="color-circle circle-red"><a href="#">Race Red</a></li>
-					<li class="color-circle circle-performanceblue"><a href="#">Performance Blue</a></li>
-					<li class="color-circle circle-green"><a href="#">Green Envy</a></li>
-					<li class="color-circle circle-ruby"><a href="#">Ruby Red</a></li>
-					<li class="color-circle circle-ingotsilver"><a href="#">Ingot Silver</a></li>
-					<li class="color-circle circle-white"><a href="#">Oxford White</a></li>
-					<li class="color-circle circle-sterlinggray"><a href="#">Storm Gray</a></li>
-					<li class="color-circle circle-moltenorange"><a href="#">Molten Orange</a></li>
-				</ul>
-			</div>
-		</div>
-
-		<div class="row topBG" id="color-changer">
-			<div class="large-12 pseudo-car">
-				<img src="img/color/14_FIES_BlueCandy.png" alt="Fiesta Car" class="carHolder">
-				<img src="img/color/14_FIES_BlueCandy.png" alt="Fiesta Car" class="carTempHolder">
-			</div>
-		</div>
-
-		<div class="row fix-button">
-			<div class="row type-centered">
-				<a href="#" class="rounded-btn view-gallery-btn" style="margin-bottom: 50px; margin-top: 20px;">View Gallery</a>
-			</div>
-		</div>
-
-		<div class="gradient-bg"></div>
-	</div>
-
-	<div class="full-width full-width-image height-500">
-
-	</div>
-
-	<div class="row made-easier">
-		<div class="large-12 columns">
-			<div class="large-6 large-centered columns type-centered">
-				<h2>Driving made easier.</h2>
-				<p>Packed with user-friendly technology to help you make the most of your drive with less of an effort.</p>
-			</div>
-		</div>
-		<style>
-			.change-heading-color {
-				margin-top: 20px;
-			}
-			.change-heading-color a {
-				text-decoration: none;
-			}
-
-			.change-heading-color a:hover {
-				opacity: .8;
-			}
-
-			.change-heading-color h4 {
-				color: #2C96CC;
-				margin-top: 20px;
-			}
-			.change-heading-color h4 {
-				color: #2C96CC;
-				margin-top: 20px;
-			}
-			.change-heading-color p {
-				color: #415967;
-			}
-		</style>
-		<div class="large-12 columns change-heading-color">
-			<div class="large-3 columns">
-				<a href="#">
-					<img src="img/feature-1.jpg" alt="">
-					<h4>No more fumbling keys</h4>
-					<p>Intelligent Access with Push-Button Start lets you get in and get going without digging for your keys. As long as the key’s on you, you can unlock the door and start the car.</p>
-				</a>
-			</div>
-			<div class="large-3 columns">
-				<a href="#">
-					<img src="img/feature-2.jpg" alt="">
-					<h4>View what’s behind you.</h4>
-					<p>With the available Rearview Camera, just throw it in reverse and an image of what’s behind you will be transmitted to the 6.5-inch display screen.</p>
-				</a>
-			</div>
-			<div class="large-3 columns">
-				<a href="#">
-					<img src="img/feature-3.jpg" alt="">
-					<h4>Driving with limits</h4>
-					<p>MyKey® encourages responsible driving by others when they’re behind the wheel of your vehicle. It allows you to limit vehicle top speeds, decrease audio volume and more.</p>
-				</a>
-			</div>
-			<div class="large-3 columns">
-				<a href="#">
-					<img src="img/feature-4.jpg" alt="">
-					<h4>The hand-free way</h4>
-					<p>Available SYNC® with MyFord Touch® allows you to use simple voice commands to control your phone, your music and more.</p>
-				</a>
-			</div>
-		</div>
-	</div>
-	<style>
-		.sync-dash-module {
-			color: white;
-		}
-		.sync-btn {
-			text-decoration: none;
-			border: 1px solid #388EBD;
-			border: 1px solid white;
-			color: white;
-			border-radius: 3px;
-			padding: 20px 55px;
-			font-size: 16px !important;
-			display: inline-block;
-			margin-right: 30px;
-		}
-		.sync-btn:nth-child(3) {
-			margin-right: 0;
-		}
-		.sync-btn-active {
-			border: 1px solid #388EBD;
-			color: #388EBD;
-		}
-		@media (max-width: 740px) {
-			.sync-btn {
-				text-decoration: none;
-				border: 1px solid #388EBD;
-				border: 1px solid white;
-				color: white;
-				border-radius: 3px;
-				padding: 8px 15px;
-				font-size: 11px !important;
-				display: inline-block;
-				margin-right: 6px;
-			}
-
-		}
-	</style>
-	<div class="full-width sync-dash-module">
-		<div class="row">
-			<div class="large-9 columns large-centered type-centered">
-				<h3 style="color: white; margin-top: 80px;">The hand-free way of staying in touch and entertained</h3>
-			</div>
-			<div class="large-6 columns large-centered type-centered">
-				<p style="color: white;">Available SYNC® with MyFord Touch® allows you to use simple voice commands to control your phone, your music and more. <a href="#">Learn More</a></p>
-			</div>
-			<div class="large-12 columns large-centered type-centered">
-				<a href="#" class="sync-btn sync-btn-active">Navigation</a>
-				<a href="#" class="sync-btn">Entertainment</a>
-				<a href="#" class="sync-btn">Phone</a>
-			</div>
-		</div>
-	</div>
-
-	<div class="row serious-go change-heading-color">
-		<div class="large-12 columns">
-			<div class="large-8 large-centered columns type-centered">
-				<h3>Serious go.</h3>
-				<p>With an impressive EPA-estimated 41 highway mpg, the 2014 Fiesta will get you where you’re going and then some. After all, it wasn’t name best-in-class for highway fuel economy because of its striking good looks. But those aren’t too bad either.</p>
-			</div>
-		</div>
-		<div class="large-12 columns">
-			<div class="large-4 columns">
-				<a href="#">
-					<img src="img/feature-5.jpg" alt="">
-					<h4>Serious go.</h4>
-					<p>2014 Fiesta ST is all about performance. The 1.6L Ti-VCT engine under the hood has 120 horses and 112lb.-ft of torque.</p>
-				</a>
-			</div>
-			<div class="large-4 columns">
-				<a href="#">
-					<img src="img/feature-6.jpg" alt="">
-					<h4>Pavment taunting performance</h4>
-					<p>The Electronic power-assisted steering allows for agile movement and responsive handling.</p>
-				</a>
-			</div>
-			<div class="large-4 columns">
-				<a href="#">
-					<img src="img/feature-7.jpg" alt="">
-					<h4>Ground control</h4>
-					<p>MWhile the suspension features help deliver a nimble, yet controlled ride. And those are just a few of the elements that make this vehicle so fun to drive.</p>
-				</a>
-			</div>
-		</div>
-	</div>
-
-	<style>
-		.vehicle-info .large-3 a {
-			display: inline-block;
-		}
-		.vehicle-info .large-3 a:hover h5 {
-			border-bottom-color: #1C394F;
-			border-bottom-width: 3px;
-			color: #1C394F;
-		}
-		.vehicle-info .large-3 a:hover .vehicle-msrp {
-			margin-top: -2px;
-		}
-		.vehicle-info h5 {
-			margin-top: 0 !important;
-		}
-
-		.compare-btn {
-			text-decoration: none;
-			border: 1px solid #2495CF;
-			color: #2495CF;
-			border-radius: 3px;
-			padding: 20px 55px;
-			font-size: 16px !important;
-			display: inline-block;
-			margin-right: 30px;
-			margin-top: 80px;
-		}
-	</style>
-	<div class="row models">
-		<div class="large-12 columns">
-			<div class="large-12 large-centered columns type-centered">
-				<h3>The FIESTA is available in 7 fuel-efficient models.</h3>
-			</div>
-		</div>
-		<div class="large-12 columns vehicle-info">
-			<div class="large-3 columns">
-				<a href="#">
-					<img src="img/models/s_hatch.jpg" alt="">
-					<h5 class="border-bottom">S Sedan</h5>
-					<p class="vehicle-msrp">$14,000 Starting MSRP</p>
-					<p>30/42 EPA-Est. MPG City/Hwy</p>
-				</a>
-			</div>
-
-			<div class="large-3 columns">
-				<a href="#">
-					<img src="img/models/se_sedan.jpg" alt="">
-					<h5 class="border-bottom">S Sedan</h5>
-					<p class="vehicle-msrp">$14,000 Starting MSRP</p>
-					<p>30/42 EPA-Est. MPG City/Hwy</p>
-				</a>
-			</div>
-
-			<div class="large-3 columns">
-				<a href="#">
-					<img src="img/models/titanium_sedan.jpg" alt="">
-					<h5 class="border-bottom">S Sedan</h5>
-					<p class="vehicle-msrp">$14,000 Starting MSRP</p>
-					<p>30/42 EPA-Est. MPG City/Hwy</p>
-				</a>
-			</div>
-
-			<div class="large-3 columns">
-				<a href="#">
-					<img src="img/models/s_sedan.jpg" alt="">
-					<h5 class="border-bottom">S Sedan</h5>
-					<p class="vehicle-msrp">$14,000 Starting MSRP</p>
-					<p>30/42 EPA-Est. MPG City/Hwy</p>
-				</a>
-			</div>
+        function switchOutImages(ele) {
+            var element = ele || $('.color-circle').eq(index);
+            $('.color-circle-active').removeClass('color-circle-active');
+            $('.view-gallery-btn').css('color', carColorInfo[index].hex);
+            $('.view-gallery-btn').css('borderColor', carColorInfo[index].hex);
+            $('.sex-change').css('color', carColorInfo[index].hex);
+            $('.carTempHolder').attr('src', imagePath + carColorInfo[index].png)
+                .load(function() {
+                    carPNGHolder.stop().animate({
+                        opacity: "0"
+                    }, 300, function() {
+                        carPNGHolder.attr('src', imagePath + carColorInfo[index].png);
+                        carPNGHolder.stop().animate({
+                            opacity: 1
+                        });
+                    });
+                });
 
 
-			<div class="large-3 columns">
-				<a href="#">
-					<img src="img/models/st.jpg" alt="">
-					<h5 class="border-bottom">S Sedan</h5>
-					<p class="vehicle-msrp">$14,000 Starting MSRP</p>
-					<p>30/42 EPA-Est. MPG City/Hwy</p>
-				</a>
-			</div>
+            element.addClass('color-circle-active');
+            /* 			carPNGHolder.attr('src', carColorInfo[$(this).index()].png); */
+            carBGHolder.css('backgroundColor', carColorInfo[index].bg);
+        }
 
-			<div class="large-3 columns">
-				<a href="#">
-					<img src="img/models/se_hatch.jpg" alt="">
-					<h5 class="border-bottom">S Sedan</h5>
-					<p class="vehicle-msrp">$14,000 Starting MSRP</p>
-					<p>30/42 EPA-Est. MPG City/Hwy</p>
-				</a>
-			</div>
+        $('.color-circle').click(function(e) {
+            index = $(this).index();
+            e.preventDefault();
+            switchOutImages($(this));
 
-			<div class="large-3 columns">
-				<a href="#">
-					<img src="img/models/titanium_hatch.jpg" alt="">
-					<h5 class="border-bottom">S Sedan</h5>
-					<p class="vehicle-msrp">$14,000 Starting MSRP</p>
-					<p>30/42 EPA-Est. MPG City/Hwy</p>
-				</a>
-			</div>
-			<div class="large-3 columns">
-				<a href="#">
-					<img src="img/models/s_hatch.jpg" alt="">
-					<h5 class="border-bottom">ST Hatch</h5>
-					<p class="vehicle-msrp">$21,000 Starting MSRP</p>
-					<p>30/42 EPA-Est. MPG City/Hwy</p>
-				</a>
-			</div>
-		</div>
-		<div class="row">
-			<div class="large-12 columns type-centered" style="padding: 0;">
-<!-- 				<a href="#" class="compare-btn" style="margin-right: 0;">Compare Models</a> -->
-			</div>
-		</div>
-	</div>
+        });
 
-	<div class="full-width large-red-fiesta">
-		<div class="row"></div>
-			<div class="large-6 large-centered columns type-centered">
-				<h5 style="margin-bottom: 0; margin-top: 60px;">2014 <strong>FIESTA</strong></h5>
-				<h3 style="font-weight: bold; margin-top: 0;">Go see it for yourself.</h3>
-			</div>
-		</div>
-	</div>
+        enquire.register("(max-width:768px)", function() {
+            $("#swatches").appendTo($("#color-changer"));
+            imagePath = smallPath;
+            switchOutImages();
+        });
 
-	<div class="full-width gray-background" style="padding: 30px 0;">
+        enquire.register("(min-width:768px)", function() {
+            $("#swatches").prependTo($("#color-changer"));
+            imagePath = largePath;
+            switchOutImages();
+        });
 
-		<div class="row">
-			<div class="large-9 large-centered columns">
-				<div class="number-43" style="font-size: 80px; float: left;">
-					43
-				</div>
-				<div class="clearfix" style="font-size: 38px; margin-left: 120px; padding-top: 8px;">
-					2014 Fiestas within 20 miles of <span style="color: #2C96CC;">48126</span>.
-				</div>
-				<div class="clearfix" style="color: #2C96CC; margin-left: 120px;">
-					View Inventory <span style="color: #444444">or</span> Change your Current Location
-				</div>
-			</div>
-		</div>
-
-		<div class="row find-section">
-			<div class="large-4 columns" style="border-right: 1px solid #E6E6E6;">
-				<h4 class="find-heading">Build &amp; Price</h4>
-				<p class="find-copy">Configure a vehicle the way you want - from colors to options - and get a Net Price.</p>
-			</div>
-			<div class="large-4 columns" style="border-right: 1px solid #E6E6E6;">
-				<h4 class="find-heading">Get Updates</h4>
-				<p class="find-copy">Sign up for emails that keep you in the loop about new vehicles, technologies, offers and more.</p>
-			</div>
-			<div class="large-4 columns">
-				<h4 class="find-heading">Requesta a Local Quote</h4>
-				<p class="find-copy">Get a price from your local dealer on the vehicle you’re looking for.</p>
-			</div>
-		</div>
-
-	</div>
-
-<script src="js/vendor/jquery.js"></script>
-<script src="js/vendor/jquery.flexslider.js"></script>
-<script src="js/vendor/enquire.js"></script>
-<!-- <script src="js/foundation.min.js"></script> -->
-<!--
-<script src="js/foundation/foundation.js"></script>
-<script src="js/foundation/foundation.alerts.js"></script>
-<script src="js/foundation/foundation.clearing.js"></script>
-<script src="js/foundation/foundation.cookie.js"></script>
-<script src="js/foundation/foundation.dropdown.js"></script>
-<script src="js/foundation/foundation.forms.js"></script>
-<script src="js/foundation/foundation.joyride.js"></script>
-<script src="js/foundation/foundation.magellan.js"></script>
-<script src="js/foundation/foundation.orbit.js"></script>
-<script src="js/foundation/foundation.reveal.js"></script>
-<script src="js/foundation/foundation.section.js"></script>
-<script src="js/foundation/foundation.tooltips.js"></script>
-<script src="js/foundation/foundation.topbar.js"></script>
-<script src="js/foundation/foundation.interchange.js"></script>
-<script src="js/foundation/foundation.placeholder.js"></script>
-<script src="js/foundation/foundation.abide.js"></script>
--->
-<script>
-	// $(document).foundation();
-
-
-	$(window).load(function() {
-	    $('.flexslider').flexslider({
-	        animation: "slide",
-	        slideshow: false,
-	        start: function(slider){
-	            $('body').removeClass('loading');
-	        }
-	    });
-	});
-
-	$(document).ready(function() {
-
-		var index = 0,
-			swatches = $('.color-circle'),
-			smallPath = "img/color/small/",
-			largePath = "img/color/",
-			imagePath = largePath,
-			carPNGHolder = $('.carHolder'),
-			carBGHolder = $('.color-changer'),
-			carColorInfo = [
-			{
-				name: "Blue Candy",
-				hex: "#097691",
-				bg: "#b4dced",
-				png: "14_FIES_BlueCandy.png"
-			},
-			{
-				name: "Tuxedo Black",
-				hex: "#000000",
-				bg: "#909090",
-				png: "14_FIES_TuxedoBlack.png"
-			},
-			{
-				name: "Race Red",
-				hex: "#E10010",
-				bg: "#f6b4b9",
-				png: "14_FIES_RaceRed.png"
-			},
-			{
-				name: "Performance Blue",
-				hex: "#16276D",
-				bg: "#a0b4c9",
-				png: "14_FIES_PerformanceBlue.png"
-			},
-			{
-				name: "Green Envy",
-				hex: "#789c09",
-				bg: "#d7e2b7",
-				png: "14_FIES_GreenEnvy.png"
-			},
-			{
-				name: "Ruby Red",
-				hex: "#A51A24",
-				bg: "#caa7a9",
-				png: "14_FIES_RubyRed.png"
-			},
-			{
-				name: "Ingot Silver",
-				hex: "#818181",
-				bg: "#d0d0d0",
-				png: "14_FIES_IngotSilver.png"
-			},
-			{
-				name: "Oxford White",
-				hex: "#989898",
-				bg: "#EEEEEE",
-				png: "14_FIES_OxfordWhite.png"
-			},
-			{
-				name: "Storm Gray",
-				hex: "#686460",
-				bg: "#a1a0a1",
-				png: "14_FIES_StormGrey.png"
-			},
-			{
-				name: "Molten Orange",
-				hex: "#c63f09",
-				bg: "#eec7b7",
-				png: "14_FIES_MoltonOrange.png"
-			}
-		];
-
-		// $('.sync-btn').click(function(event) {
-		// 	event.preventDefault();
- 	// 		$(window).scrollTop(4140); 
-		// 	$("html, body").stop().animate({ scrollTop: "4140px" }, 5000);
-		// });
-
-		function switchOutImages(ele) {
-			var ele = ele || $('.color-circle').eq(index);
-			$('.color-circle-active').removeClass('color-circle-active');
-			$('.view-gallery-btn').css('color', carColorInfo[index].hex);
-			$('.view-gallery-btn').css('borderColor', carColorInfo[index].hex);
-			$('.sex-change').css('color', carColorInfo[index].hex);
-			$('.carTempHolder').attr('src', imagePath+carColorInfo[index].png)
-			.load(function() {
-				carPNGHolder.stop().animate({
-					opacity: "0"
-				}, 300, function() {
-					carPNGHolder.attr('src', imagePath+carColorInfo[index].png);
-					carPNGHolder.stop().animate({
-						opacity: 1
-					});
-				});
-			});
-			
-
-			ele.addClass('color-circle-active');
-/* 			carPNGHolder.attr('src', carColorInfo[$(this).index()].png); */
-			carBGHolder.css('backgroundColor', carColorInfo[index].bg);
-		}
-
-		$('.color-circle').click(function(e) {
-			index = $(this).index();
-			e.preventDefault();
-			switchOutImages($(this));
-
-		});
-
-		enquire.register("(max-width:768px)", function() {
-			 $("#swatches").appendTo($("#color-changer"));
-			 imagePath = smallPath;
-			 switchOutImages();
-		});
-
-		enquire.register("(min-width:768px)", function() {
-			 $("#swatches").prependTo($("#color-changer"));
-			 imagePath = largePath;
-			 switchOutImages();
-		});
-
-	});
-</script>
+    });
+    </script>
 </body>
+
 </html>
