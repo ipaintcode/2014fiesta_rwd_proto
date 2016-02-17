@@ -132,12 +132,18 @@
 	.vehicle-info-item:last-child {
 		border-right: none;
 	}
+<<<<<<< 6ee0534227fd7620ed8ec8921bb22b95e173e22f
 <<<<<<< 50bf81f2a4be0ec77fee370c26e9dcd1ecd7d678
 	.pseudo-car .carTempHolder {
 		top: 102px;
 	}
 =======
 >>>>>>> Fixed JS error?
+=======
+	.carTempHolder {
+		top: 102px;
+	}
+>>>>>>> ColorPicker: Fixed responsive color picker
 }
 
 =======
@@ -158,6 +164,7 @@
 .gray-background {
 	background-color: #f2f2f2;
 }
+<<<<<<< 6ee0534227fd7620ed8ec8921bb22b95e173e22f
 <<<<<<< 8a60ca74f992661494f59c903399e45cf7a7a2f6
 =======
 @media (max-width: 768px) {
@@ -166,6 +173,8 @@
 	}
 }
 >>>>>>> Adding site
+=======
+>>>>>>> ColorPicker: Fixed responsive color picker
 
 .find-section {
 	padding: 30px 0;
