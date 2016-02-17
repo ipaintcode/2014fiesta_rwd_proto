@@ -130,7 +130,7 @@
 	.vehicle-info-item:last-child {
 		border-right: none;
 	}
-	.carTempHolder {
+	.pseudo-car .carTempHolder {
 		top: 102px;
 	}
 }
