@@ -130,6 +130,9 @@
 	.vehicle-info-item:last-child {
 		border-right: none;
 	}
+	.carTempHolder {
+		top: 102px;
+	}
 }
 
 .vehicle-info-heading {
@@ -145,11 +148,6 @@
 
 .gray-background {
 	background-color: #f2f2f2;
-}
-@media (max-width: 768px) {
-	.vehicle-info:first-child {
-		border-bottom: 1px solid #E6E9EB;
-	}
 }
 
 .find-section {
