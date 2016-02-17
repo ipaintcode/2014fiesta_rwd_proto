@@ -144,10 +144,14 @@
 	.vehicle-info-item:last-child {
 		border-right: none;
 	}
+<<<<<<< be32b17a7e98db88fd3b81f691cce9b370fdfb93
 <<<<<<< a478e3d1886143c89b10efef635ecc04f94bbffa
 <<<<<<< 6ee0534227fd7620ed8ec8921bb22b95e173e22f
 <<<<<<< 50bf81f2a4be0ec77fee370c26e9dcd1ecd7d678
 =======
+=======
+<<<<<<< fa1393ab0d29a04a80a7d429636a803c288b5c66
+>>>>>>> ColorPicker: Fixed responsive color picker
 <<<<<<< 5474d5ac89e9cdc55593fed84ed397abbb422d9c
 >>>>>>> Fixed JS error?
 	.pseudo-car .carTempHolder {
@@ -155,14 +159,20 @@
 	}
 =======
 >>>>>>> Fixed JS error?
+<<<<<<< be32b17a7e98db88fd3b81f691cce9b370fdfb93
 <<<<<<< a478e3d1886143c89b10efef635ecc04f94bbffa
+=======
+>>>>>>> ColorPicker: Fixed responsive color picker
 =======
 	.carTempHolder {
 		top: 102px;
 	}
 >>>>>>> ColorPicker: Fixed responsive color picker
+<<<<<<< be32b17a7e98db88fd3b81f691cce9b370fdfb93
 =======
 >>>>>>> Fixed JS error?
+=======
+>>>>>>> ColorPicker: Fixed responsive color picker
 }
 
 =======
@@ -194,10 +204,14 @@
 .gray-background {
 	background-color: #f2f2f2;
 }
+<<<<<<< be32b17a7e98db88fd3b81f691cce9b370fdfb93
 <<<<<<< 6cae8146ea827d6bf54b60a4d1b422e01e8f4628
 <<<<<<< 6ee0534227fd7620ed8ec8921bb22b95e173e22f
 <<<<<<< 8a60ca74f992661494f59c903399e45cf7a7a2f6
 =======
+=======
+<<<<<<< fa1393ab0d29a04a80a7d429636a803c288b5c66
+>>>>>>> ColorPicker: Fixed responsive color picker
 <<<<<<< 9cd114698dbc826c1d2dc5002442be32088d045e
 >>>>>>> Fiesta 2014 RWD Foundation Prototype
 =======
@@ -213,6 +227,8 @@
 =======
 >>>>>>> Fiesta 2014 RWD Foundation Prototype
 >>>>>>> Fiesta 2014 RWD Foundation Prototype
+=======
+>>>>>>> ColorPicker: Fixed responsive color picker
 
 .find-section {
 	padding: 30px 0;
